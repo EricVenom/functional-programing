@@ -4,4 +4,4 @@ function printMessage(elementId, format, message) {
     document.querySelector(`#${elementId}`).innerHTML = `<${format}>${message}</${format}>`
 }
 
-printMessage('msg2', 'p', 'Hello World from a Function')
+printMessage('msg2', 'span', 'Hello World from a Function')

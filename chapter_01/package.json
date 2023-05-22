@@ -1,0 +1,15 @@
+{
+  "name": "chapter_01",
+  "version": "1.0.0",
+  "description": "- Thinking in functional terms\r - Learning what and why of functional programming\r - Understanding the principles of immutability and pure functions\r - Functional programming techniques and their impact on overall design",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}

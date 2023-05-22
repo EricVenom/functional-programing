@@ -1,3 +1,4 @@
+## DECLARATIVE, PURE AND IMMUTABLE
 ### This chapter covers
 - Thinking in functional terms
 - Learning what and why of functional programming
@@ -45,3 +46,8 @@ function(num) {
     return Math.pow(num, 2);
 }
 ```
+## Pure Functions
+A pure function has the following qualities:
+- It depends only on the input provided and not on any hidden or external state that may change during its evaluation or between calls.
+- It doesn’t inflict changes beyond their scope, such as modifying a global object or a parameter passed by reference.
+
